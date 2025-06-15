@@ -30,7 +30,7 @@ jobs:
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .github/workflows/_site  # << this is your real folder
+          path: .github/_site  # << this is your real folder
 
       - name: Deploy to GitHub Pages
         id: deployment
