@@ -227,13 +227,6 @@ body {
   height: 20px;
 }
 
-/* Hero Visual */
-.hero-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: slideInRight 1s ease-out 0.8s both;
-}
 
 .phone-mockup {
   width: 280px;
@@ -299,10 +292,6 @@ body {
   animation-delay: 2s;
 }
 
-@keyframes pulse {
-  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.3; }
-  50% { transform: scale(1.2) rotate(180deg); opacity: 0.6; }
-}
 
 .game-ui {
   position: absolute;
@@ -324,10 +313,6 @@ body {
   animation: glow 2s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
-  from { box-shadow: 0 0 5px rgba(6, 182, 212, 0.5); }
-  to { box-shadow: 0 0 20px rgba(6, 182, 212, 0.8), 0 0 30px rgba(6, 182, 212, 0.4); }
-}
 
 .ui-bars {
   display: flex;
@@ -345,10 +330,6 @@ body {
 .ui-bar:nth-child(2) { animation-delay: 0.2s; }
 .ui-bar:nth-child(3) { animation-delay: 0.4s; }
 
-@keyframes loading {
-  0%, 100% { opacity: 0.3; }
-  50% { opacity: 1; }
-}
 
 /* Features Section */
 .features {
@@ -701,4 +682,3 @@ body {
     padding: 16px;
   }
 }
-
